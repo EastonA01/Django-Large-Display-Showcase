@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/EastonA01/Django-Large-Display-Showcase">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Django-Large-Display-Showcase</h3>
@@ -93,10 +93,10 @@ TODO: Finish about project
 
 ### Built With
 
-* [![Python][Python.org]][Python-url]
-* [![Django][Django.org]][Django-url]
-* [![HTML5][HTML5.org]][HTML5-url]
-* [![SQLite][SQLite.org]][SQLite-url]
+* [![Python][Python.com]][Python-url]
+* [![Django][Django.com]][Django-url]
+* [![HTML5][HTML5.com]][HTML5-url]
+* [![SQLite][SQLite.com]][SQLite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,11 +149,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] User Authentication System
+    - [ ] Implement a robust user authentication system with features like registration, login, logout, password reset, and email verification.
+- [ ] Blog
+    - [ ] Create a blog application where users can create, edit, and delete their blog posts. Add features like categories, tags, comments, and search functionality.
+- [ ] E-Commerce Site
+    - [ ] Build an e-commerce platform where users can browse products, add items to their cart, and complete orders. Include features like product filtering, sorting, and payment integration using Stripe or PayPal.
+## And much more to come!
 
 See the [open issues](https://github.com/EastonA01/Django-Large-Display-Showcase/issues) for a full list of proposed features (and known issues).
 
@@ -191,7 +193,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - eastonredwing@gmail.com
+Easton Anderson - eastonredwing@gmail.com
 
 Project Link: [https://github.com/EastonA01/Django-Large-Display-Showcase](https://github.com/EastonA01/Django-Large-Display-Showcase)
 
