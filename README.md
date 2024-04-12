@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/EastonA01/Django-Large-Display-Showcase">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Django-Large-Display-Showcase</h3>
@@ -93,10 +93,10 @@ TODO: Finish about project
 
 ### Built With
 
-* [![Python][Python.org]][Python-url]
-* [![Django][Django.org]][Django-url]
-* [![HTML5][HTML5.org]][HTML5-url]
-* [![SQLite][SQLite.org]][SQLite-url]
+* [![Python][Python.com]][Python-url]
+* [![Django][Django.com]][Django-url]
+* [![HTML5][HTML5.com]][HTML5-url]
+* [![SQLite][SQLite.com]][SQLite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
