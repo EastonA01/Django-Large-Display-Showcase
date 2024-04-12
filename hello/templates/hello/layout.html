@@ -9,10 +9,14 @@
 
 <body>
 <div class="navbar">
-    <a href="{% url 'home' %}" class="navbar-brand">Home</a>
-    <a href="{% url 'log' %}" class="navbar-item">Log Message</a>
-    <a href="{% url 'about' %}" class="navbar-item">About</a>
-    <a href="{% url 'contact' %}" class="navbar-item">Contact</a>
+    <div>
+        <a href="{% url 'home' %}" class="navbar-brand">Home</a>
+        <a href="{% url 'projects' %}" class="navbar-item">Projects</a>
+        <a href="{% url 'log' %}" class="navbar-item">Log Message</a>
+        <a href="{% url 'about' %}" class="navbar-item">About</a>
+        <a href="{% url 'contact' %}" class="navbar-item">Contact</a>
+        <a class="navbar-item" style="float:right"> TODO: Username Here </a>
+    </div>
 </div>
 
 <div class="body-content">
@@ -20,7 +24,7 @@
     {% endblock %}
     <hr/>
     <footer>
-        <p>&copy; 2024</p>
+        <p>&copy; Easton Anderson 2024</p>
     </footer>
 </div>
 </body>

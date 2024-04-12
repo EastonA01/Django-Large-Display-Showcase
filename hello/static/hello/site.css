@@ -9,6 +9,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     padding: 8px 5px 8px 5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
 }
 
 .navbar a {
@@ -29,6 +33,10 @@
 .body-content {
     padding: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul.projects_list {
+    list-style-type: none;
 }
 
 input[name=message] {

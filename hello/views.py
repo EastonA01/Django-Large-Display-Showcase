@@ -22,16 +22,9 @@ def about(request):
 def contact(request):
     return render(request, "hello/contact.html")
 
-def hello_there(request, name):
-    print(request.build_absolute_uri()) #optional
-    return render(
-        request,
-        'hello/hello_there.html',
-        {
-            'name': name,
-            'date': datetime.now()
-        }
-    )
+def projects(request):
+    # print(request.build_absolute_uri()) #optional
+    return render(request, "hello/projects.html")
 
 def log_message(request):
     form = LogMessageForm(request.POST or None)
