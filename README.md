@@ -93,10 +93,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Python][Python.org]][Python-url]
-* [![Django][Django.org]][Django-url]
-* [![HTML5][HTML5.org]][HTML5-url]
-* [![SQLite][SQLite.org]][SQLite-url]
+* [![Python][Python.com]][Python-url]
+* [![Django][Django.com]][Django-url]
+* [![HTML5][HTML5.com]][HTML5-url]
+* [![SQLite][SQLite.com]][SQLite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
