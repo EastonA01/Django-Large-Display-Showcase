@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `EastonA01`, `Django-Large-Display-Showcase`, `twitter_handle`, `easton-anderson-674aa5259`, `email_client`, `email`, `Django-Large-Display-Showcase`, `project_description`
+TODO: Finish about project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,10 +93,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Python][Python.com]][Python-url]
-* [![Django][Django.com]][Django-url]
-* [![HTML5][HTML5.com]][HTML5-url]
-* [![SQLite][SQLite.com]][SQLite-url]
+* [![Python][Python.org]][Python-url]
+* [![Django][Django.org]][Django-url]
+* [![HTML5][HTML5.org]][HTML5-url]
+* [![SQLite][SQLite.org]][SQLite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +224,7 @@ Project Link: [https://github.com/EastonA01/Django-Large-Display-Showcase](https
 [license-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/easton-anderson-674aa5259
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://1000logos.net/wp-content/uploads/2020/08/Django-Logo-500x313.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
