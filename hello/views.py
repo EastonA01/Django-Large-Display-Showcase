@@ -1,5 +1,6 @@
 import re
-from django.utils.timezone import datetime
+import requests
+from django.utils.timezone import datetime, now
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import redirect
@@ -34,17 +35,39 @@ def hello_there(request, name):
 
 def log_message(request):
     form = LogMessageForm(request.POST or None)
-    # TODO: Add a check using the profanity API to filter out the message's harsh words-if any.
-
     if request.method == "POST":
         if form.is_valid():
+            # Start to save message
             message = form.save(commit=False)
-            message.log_date = datetime.now()
-            message.save()
-            return redirect("home")
+            # Check for profanity and filter out if any, then redirect to home
+            if profanity_check(form.cleaned_data.get('message')) == False:
+                # If no profanity, save the message to the database and return home
+                print("Message Saved")
+                message.log_date = datetime.now()
+                message.save()
+                return redirect("home")
+            else:
+                # Else filter the text and then save to db               
+                message.message = text_filter(form.cleaned_data.get('message'))
+                message.log_date = datetime.now()
+                message.save()
+                return redirect("home")
     else:
         return render(request, "hello/log_message.html", {"form": form})
     
-# def profanity_check(message):
-#     if client.contains_profanity(message) == True:
-#         raise Exception("Sorry, no swearing")
+def profanity_check(message):
+    response = requests.get(f'https://www.purgomalum.com/service/containsprofanity?text={message}')
+    if response.status_code == 200:
+        data = response.json()  
+        if data == True:
+            text_filter(message)
+        else:
+            return False
+    else:
+        return HttpResponse("Error: Data Could Not Be Retrieved")
+    
+def text_filter(message):
+    response2 = requests.get(f'https://www.purgomalum.com/service/plain?text={message}')
+    if response2.status_code == 200:
+        data2 = response2.text
+        return data2
