@@ -240,7 +240,7 @@ Project Link: [https://github.com/EastonA01/Django-Large-Display-Showcase](https
 [issues-shield]: https://img.shields.io/github/issues/EastonA01/Django-Large-Display-Showcase.svg?style=for-the-badge
 [issues-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/issues
 [license-shield]: https://img.shields.io/github/license/EastonA01/Django-Large-Display-Showcase.svg?style=for-the-badge
-[license-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/blob/master/LICENSE.txt
+[license-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/easton-anderson-674aa5259
 [product-screenshot]: https://1000logos.net/wp-content/uploads/2020/08/Django-Logo-500x313.png
