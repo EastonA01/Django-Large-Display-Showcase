@@ -1,6 +1,7 @@
 from django.urls import path
 from hello import views
 from hello.models import LogMessage
+from django.contrib.auth import views as auth_views
 
 home_list_view = views.HomeListView.as_view(
     queryset=LogMessage.objects.order_by("-log_date")[:5],  # :5 limits the results to the five most recent
@@ -14,4 +15,6 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("contact/", views.contact, name="contact"),
     path("log/", views.log_message, name="log"),
+    path("login/", views.login_view, name="login" ),
+    path("register/", views.register_user, name="register"),
 ]
