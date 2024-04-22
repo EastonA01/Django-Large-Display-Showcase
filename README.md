@@ -83,9 +83,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://www.djangoproject.com/)
 
-TODO: Finish about project
+Welcome to the Django Large Display Showcase repository! This project serves as a comprehensive demonstration of my skills and expertise in various technologies, including APIs, Python, and Django framework, among others.
+
+Purpose:
+The primary objective of this repository is to exhibit a diverse range of competencies I've acquired, showcasing my proficiency to prospective employers. Whether you're interested in my backend development skills, API integration capabilities, or Django expertise, this project offers a detailed insight into my technical capabilities and problem-solving approach.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +113,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Python3 and NPM. (Make sure the location of your Python interpreter is included in your PATH environment variable!)
+* Python
+    Grab the installation from Python's [website](https://www.python.org/downloads/)
 * npm
   ```sh
   npm install npm@latest -g
@@ -118,19 +123,30 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/EastonA01/Django-Large-Display-Showcase.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Setup a local virtual environment for the project using this command in the terminal
+   ```sh
+   py -3 -m venv .venv
    ```
+4. Activate the environment using the below command (Windows only, if using another platform see: setting up a virtual enviroment in your language)
+   ```sh
+   .venv\scripts\activate
+   ```
+5. Install requirements using the below command with pip
+   ```sh
+   pip install -r requirements.txt
+   ```
+6. Given that all is setup properly- in the root folder run the below command to start a local development server to view the app!
+  ```sh
+  python manage.py runserver 5000
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +155,10 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+As of right now, you can utilize the site's automatic text filtering with PurgoMalum- an external API that uses a dictionary to filter out any undesireable words- the possible use case of this could be a website's form where profanity may not be allowed on site. With different APIs and code it would even be possible to filter out sensitive information such as passwords, email addresses and other sets of data that you may not want leaked on your site. For a terrific real-life example of this see [Roblox's text filtering](https://create.roblox.com/docs/ui/text-filtering)
+![](https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/b/d/6/bd62faa8f6a4aafe8cadf6a6bb17418c27102452.gif)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the projecs section of the program itself, where many more uses are outlined as well as the roadmap below!_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,9 +221,9 @@ Project Link: [https://github.com/EastonA01/Django-Large-Display-Showcase](https
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Sam for his profanity API [PurgoMalum](https://www.purgomalum.com/)
+* [VisualStudio Code](https://code.visualstudio.com/) for their wonderful code editor and tutorials making this project possible.
+* Friends and family continuing to push me forward
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +240,7 @@ Project Link: [https://github.com/EastonA01/Django-Large-Display-Showcase](https
 [issues-shield]: https://img.shields.io/github/issues/EastonA01/Django-Large-Display-Showcase.svg?style=for-the-badge
 [issues-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/issues
 [license-shield]: https://img.shields.io/github/license/EastonA01/Django-Large-Display-Showcase.svg?style=for-the-badge
-[license-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/blob/master/LICENSE.txt
+[license-url]: https://github.com/EastonA01/Django-Large-Display-Showcase/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/easton-anderson-674aa5259
 [product-screenshot]: https://1000logos.net/wp-content/uploads/2020/08/Django-Logo-500x313.png
