@@ -166,9 +166,9 @@ _For more examples, please refer to the projecs section of the program itself, w
 
 <!-- ROADMAP -->
 ## Roadmap
-- [ ] User Authentication System
-    - [ ] Implement a robust user authentication system with features like registration, login, logout, password reset, and email verification.
-- [ ] Blog
+- [x] User Authentication System
+    - [x] Implement a robust user authentication system with features like registration, login, and logout.
+- [x] Blog
     - [ ] Create a blog application where users can create, edit, and delete their blog posts. Add features like categories, tags, comments, and search functionality.
 - [ ] E-Commerce Site
     - [ ] Build an e-commerce platform where users can browse products, add items to their cart, and complete orders. Include features like product filtering, sorting, and payment integration using Stripe or PayPal.
